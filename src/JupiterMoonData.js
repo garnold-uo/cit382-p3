@@ -2,7 +2,7 @@ const JupiterMoonData = [
   {
     name: "Callisto",
     diameterKM: "4820.6",
-    image: "Callisto.jpg",
+    image: require("./images/Callisto.jpg"),
     link: "https://en.wikipedia.org/wiki/Callisto_(moon)"
   },
   {
