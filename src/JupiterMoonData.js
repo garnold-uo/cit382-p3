@@ -8,12 +8,13 @@ const JupiterMoonData = [
   {
     name: "Europa",
     diameterKM: "3121.6",
-    image: "Europa.jpg",
+    image: require("./images/Europa.jpg"),
     link: "https://en.wikipedia.org/wiki/Europa_(moon)"
   },
   {
     name: "Ganymede",
     diameterKM: "5268.2",
+    image: require("./images/Ganymede.jpg"),
     image: "Ganymede.jpg",
     link: "https://en.wikipedia.org/wiki/Ganymede_(moon)"
   },
@@ -21,6 +22,7 @@ const JupiterMoonData = [
     name: "Io",
     diameterKM: "3660.0",
     image: "Io.jpg",
+    image: require("./images/Io.jpg"),
     link: "https://en.wikipedia.org/wiki/Io_(moon)"
   }
 ];
